@@ -25,6 +25,8 @@ Encore
     //     pattern: /\.(png|jpg|jpeg)$/
     // })
 
+    .enablePostCssLoader()
+
     /*
      * ENTRY CONFIG
      *
