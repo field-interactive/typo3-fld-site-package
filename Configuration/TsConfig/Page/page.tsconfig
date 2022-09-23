@@ -1,0 +1,82 @@
+#
+# Language
+#
+setup {
+    default {
+        lang = de
+    }
+}
+
+#
+# TCEFORM
+#
+TCEFORM {
+    pages {
+        layout {
+            removeItems = 1,2,3
+        }
+    }
+
+    tt_content {
+        header_layout {
+            altLabels {
+                1 = H1 (only once per page!)
+                2 = H2
+                3 = H3
+                4 = H4
+                5 = H5
+            }
+        }
+
+        layout {
+            removeItems = 1,2,3
+            disableNoMatchingValueElement = 1
+        }
+
+        imageborder {
+            disabled = 1
+        }
+
+        imagecols {
+            removeItems = 7,8
+        }
+
+        image_zoom {
+            types {
+                media {
+                    disabled = 1
+                }
+            }
+        }
+
+        accessibility_title {
+            disabled = 1
+        }
+
+        // Disable imageheight and imagewidth for textpic and image
+        // to avoid incorrect rendering in frontend
+        imageheight.disabled = 1
+        imagewidth.disabled = 1
+    }
+}
+
+#
+# TCEMAIN
+#
+TCEMAIN {
+    table {
+        tt_content {
+            disablePrependAtCopy = 1
+            disableHideAtCopy = 1
+        }
+    }
+}
+
+#
+# RTE
+#
+RTE {
+    default {
+        preset = typo3-fld-site-package
+    }
+}

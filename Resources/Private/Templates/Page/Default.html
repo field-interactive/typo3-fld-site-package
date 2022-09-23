@@ -1,0 +1,20 @@
+<f:layout name="Default"/>
+<f:section name="HeaderAssets">
+    <f:render partial="HeaderData/Favicon"/>
+</f:section>
+<f:section name="Main">
+    <main role="main">
+        <section class="header">
+            <f:for each="{header}" as="contentElement">
+                <f:cObject typoscriptObjectPath="tt_content.{contentElement.data.CType}" data="{contentElement.data}" table="tt_content"/>
+            </f:for>
+        </section>
+        <section id="maincontent" class="content">
+            <f:for each="{mainContent}" as="contentElement">
+                <f:cObject typoscriptObjectPath="tt_content.{contentElement.data.CType}" data="{contentElement.data}" table="tt_content"/>
+            </f:for>
+        </section>
+    </main>
+</f:section>
+
+

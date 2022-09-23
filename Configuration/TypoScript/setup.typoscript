@@ -1,0 +1,12 @@
+######################
+#### DEPENDENCIES ####
+######################
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:typo3-fld-site-package/Configuration/TypoScript/Setup/Config/*.typoscript'
+@import 'EXT:typo3-fld-site-package/Configuration/TypoScript/Setup/Page/*.typoscript'
+
+
+################
+#### HELPER ####
+################
+@import 'EXT:typo3-fld-site-package/Configuration/TypoScript/Helper/*.typoscript'

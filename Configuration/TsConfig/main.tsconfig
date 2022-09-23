@@ -1,0 +1,5 @@
+#
+# PageTS for typo3-fld-site-package
+#
+@import 'EXT:typo3-fld-site-package/Configuration/TsConfig/Page/*.tsconfig'
+@import 'EXT:typo3-fld-site-package/Configuration/TsConfig/BackendLayouts/*.tsconfig'

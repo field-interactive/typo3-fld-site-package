@@ -1,0 +1,33 @@
+#####################################################################
+# LANGUAGE CONFIGURATION ############################################
+#####################################################################
+
+config {
+        linkVars = L
+        uniqueLinkVars = 1
+        htmlTag_langKey = de-DE
+        locale_all = de_DE.utf8
+        language = de
+        sys_language_uid = 0
+        sys_language_mode = content_fallback; 1
+        sys_language_overlay = 0
+        language = de
+        locale_all = de_DE.utf8
+        htmlTag_langKey = de-DE
+}
+
+#[globalVar = GP:L = 1]
+#        config {
+#                baseURL = http://domain.com/en/
+#                htmlTag_langKey = en-US
+#                locale_all = en_US.utf8
+#                language = en
+#                sys_language_uid = 1
+#                language >
+#                sys_language_mode = content_fallback ; 1
+#                sys_language_overlay = hideNonTranslated
+#                language = en
+#                locale_all = en_US.utf8
+#                htmlTag_langKey = en-US
+#        }
+#[global]

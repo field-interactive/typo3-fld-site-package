@@ -1,0 +1,25 @@
+page {
+    includeCSSLibs {
+
+    }
+
+    includeCSS {
+        css = typo3_encore:app
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        js = typo3_encore:app
+    }
+}

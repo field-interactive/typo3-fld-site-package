@@ -1,0 +1,30 @@
+mod.web_layout.BackendLayouts {
+    Default {
+        title = Default
+        config {
+            backend_layout {
+                colCount = 1
+                rowCount = 3
+                rows {
+                    1 {
+                        columns {
+                            1 {
+                                name = Header
+                                colPos = 10
+                            }
+                        }
+                    }
+
+                    2 {
+                        columns {
+                            1 {
+                                name = Content
+                                colPos = 20
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

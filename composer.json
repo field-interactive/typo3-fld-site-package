@@ -1,0 +1,22 @@
+{
+    "name": "field-interactive/typo3-fld-site-package",
+    "type": "typo3-cms-extension",
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5",
+        "mask/mask": "^7.1",
+        "ssch/typo3-encore": "^4.0"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "typo3-fld-site-package"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "typo3/cms-composer-installers": true,
+            "typo3/class-alias-loader": true
+        }
+    }
+}

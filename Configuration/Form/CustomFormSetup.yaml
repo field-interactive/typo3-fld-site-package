@@ -1,0 +1,19 @@
+TYPO3:
+  CMS:
+    Form:
+      persistenceManager:
+        allowSaveToExtensionPaths: true
+        allowDeleteFromExtensionPaths: false
+        allowedExtensionPaths:
+          10: 'EXT:typo3-fld-site-package/Resources/Private/FormDefinitions'
+      prototypes:
+        standard:
+          formElementsDefinition:
+            Form:
+              renderingOptions:
+                templateRootPaths:
+                  100: 'EXT:typo3-fld-site-package/Resources/Private/Templates/Forms/BasicContactForm/Frontend/Templates/'
+                partialRootPaths:
+                  100: 'EXT:typo3-fld-site-package/Resources/Private/Partials/Forms/BasicContactForm/Frontend/Partials/'
+                layoutRootPaths:
+                  100: 'EXT:typo3-fld-site-package/Resources/Private/Layouts/Forms/BasicContactForm/Frontend/Layouts'
