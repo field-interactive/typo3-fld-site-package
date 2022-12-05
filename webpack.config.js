@@ -10,7 +10,7 @@ Encore
     // directory where compiled assets will be stored
     .setOutputPath('Resources/Public/build')
     // public path used by the web server to access the output path
-    .setPublicPath('/build')
+    .setPublicPath('/typo3conf/ext/typo3-fld-site-package/Resources/Public/build/')
     // only needed for CDN's or sub-directory deploy
     .setManifestKeyPrefix('build/')
 
