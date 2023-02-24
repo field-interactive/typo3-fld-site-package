@@ -6,7 +6,7 @@ page {
     typeNum = 0
 
     bodyTagCObject = TEXT
-    bodyTagCObject.stdWrap.dataWrap = <body class="{field:backend_layout}" id="page-{field:uid}">
+    bodyTagCObject.stdWrap.dataWrap = <body class="{pagelayout}" id="page-{field:uid}">
 
     shortcutIcon = EXT:typo3-fld-site-package/Resources/Public/Icons/favicon.ico
 
