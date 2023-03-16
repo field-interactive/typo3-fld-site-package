@@ -9,7 +9,14 @@ Sitepackage for the project "typo3-fld-site-package"
 
 ## Renaming the site package and all occurrences recursively
 
-````bash
+```bash
 mv typo3-fld-site-package project_name
 find . -type f -exec sed -i 's/typo3-fld-site-package/project_name/g' {} +
-````
+```
+
+### Return to the project root and require the site package with composer
+
+```bash
+cd ../..
+composer require field-interactive/project_name
+```
